@@ -1,10 +1,14 @@
-/* ---------------- GENERAL CONFIG -------------*/
+/* -------------------------------------------------------- */
+/* GENERAL CONFIG */
+/* -------------------------------------------------------- */
+
 body {
     margin: 0;
 }
 
-
-/* ---------- VARIABLES DECLARATIONS ---------- */
+/* -------------------------------------------------------- */
+/* VARIABLES DECLARATIONS */
+/* -------------------------------------------------------- */
 
 :root {
     /* COLOR PALETTE */
@@ -13,9 +17,11 @@ body {
 }
 
 
-/* ------ TEMPLATE STYLE COMPONENTS (USED ONCE IN ALL PAGES) ------ */
+/* -------------------------------------------------------- */
+/* TEMPLATE STYLES (USED ONCE IN EVERY PAGES)  */
+/* -------------------------------------------------------- */
 
-/* HEAD NAV */
+/* ====== HEAD NAV ====== */
 
 #head-nav {
     width: 100%;
@@ -28,4 +34,17 @@ body {
     width: 70%;
     height: 100%;
     background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* -------------------------------------------------------- */
+/* GENERIC STYLES (USED MANY TIMES IN PAGES) */
+/* -------------------------------------------------------- */
+
+
+.small-icon {
+    width: 23px;
 }
