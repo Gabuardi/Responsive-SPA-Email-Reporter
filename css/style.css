@@ -1,4 +1,10 @@
-/* VARIABLES DECLARATIONS */
+/* ---------------- GENERAL CONFIG -------------*/
+body {
+    margin: 0;
+}
+
+
+/* ---------- VARIABLES DECLARATIONS ---------- */
 
 :root {
     /* COLOR PALETTE */
@@ -7,7 +13,7 @@
 }
 
 
-/* TEMPLATE STYLE COMPONENTS (USED ONCE IN ALL PAGES) */
+/* ------ TEMPLATE STYLE COMPONENTS (USED ONCE IN ALL PAGES) ------ */
 
 #head-nav {
     width: 100%;
