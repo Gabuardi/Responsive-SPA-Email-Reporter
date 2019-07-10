@@ -150,8 +150,9 @@ p.p3 {
 /* ====== CONTENT WRAPPER ====== */
 
 .content-wrapper {
+    padding: 0 15px;
     margin: auto;
-    width: 70%;
+    width: 100%;
     display: flex;
 }
 
@@ -162,7 +163,6 @@ p.p3 {
 
 /* CONTENT WRAPPER -> [HEAD BAR] */
 .content-wrapper.head-bar {
-    padding: 0 5px 0 5px;
     height: 100%;
     flex-direction: row;
     justify-content: space-between;
