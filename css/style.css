@@ -86,6 +86,28 @@ p {
 /* GENERIC STYLES (USED TWO O MORE TIMES IN PAGES) */
 /* -------------------------------------------------------- */
 
+/* ====== TEXT ====== */
+
+p.p1 {
+    font-size: 22px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+p.p2 {
+    font-size: 15px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+p.p3 {
+    font-size: 16px;
+    color: #F6BC25;
+    letter-spacing: 0;
+}
+
 /* ====== CONTENT WRAPPER ====== */
 
 .content-wrapper {
