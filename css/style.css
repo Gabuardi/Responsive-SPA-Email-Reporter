@@ -171,6 +171,7 @@ p.p3 {
 
 /* CONTENT WRAPPER -> [SEARCH EMAIL ADDRESS] */
 .content-wrapper.search-email {
+
     flex-direction: column;
 }
 
@@ -186,12 +187,13 @@ p.p3 {
 }
 
 .search-bar-container {
+    padding-left: 10px;
     display: flex;
     flex-direction: row;
 }
 
 .privacy-message {
-    margin-top: 18px;
+    margin: 18px 0 0 10px;
     display: flex;
     flex-direction: row;
     align-items: start;
