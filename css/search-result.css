@@ -19,4 +19,13 @@ p.phone {
 }
 
 
-/* ======= LAYOUT ======= */
+/* ==== PERSON CARD ==== */
+
+#person-card {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
