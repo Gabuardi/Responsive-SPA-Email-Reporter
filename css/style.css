@@ -88,6 +88,21 @@ p {
 .footer-wrapper {
     width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.term-and-privacy {
+    text-align: end;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    width: 150px;
+    margin: 0 0 0 70px;
+    font-size: 14px;
+    color: #004A80;
+    letter-spacing: 0;
 }
 
 
@@ -105,6 +120,7 @@ p.p1 {
 }
 
 p.p2 {
+    margin: 14px 0 14px;
     font-size: 15px;
     color: #999999;
     letter-spacing: 0;
