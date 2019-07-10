@@ -21,7 +21,7 @@ h1.blue {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #000000;
     letter-spacing: 0;
     text-align: center;
@@ -44,7 +44,7 @@ h4 > strong {
 }
 
 h6 {
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #004A80;
     letter-spacing: 0;
     margin: 0;
@@ -52,10 +52,10 @@ h6 {
 
 p {
     margin: 8px 0 0 0;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000000;
     letter-spacing: 0;
-    line-height: 26px;
+    line-height: 1.625rem;
 }
 
 /* -------------------------------------------------------- */
@@ -122,14 +122,14 @@ p {
 /* ====== TEXT ====== */
 
 p.p1 {
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #4A4A4A;
     letter-spacing: 0;
     line-height: 30px;
 }
 
 p.p2 {
-    margin: 14px 0 14px;
+    margin: 0.875rem 0 0.875rem;
     font-size: 15px;
     color: #999999;
     letter-spacing: 0;
