@@ -249,3 +249,15 @@ p.p3 {
 .search-button:active {
     background-color: var(--secondary-color);
 }
+
+
+/* ======= RESPONSIVE MEDIA QUERY  ======= */
+
+/* _____________________________________________ */
+/* DESKTOP */
+@media only screen and (min-width: 992px) {
+
+    .content-wrapper {
+        width: 70%;
+    }
+}
