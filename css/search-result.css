@@ -1,0 +1,22 @@
+/* ======= LAYOUT ======= */
+
+#search-result {
+    background: #F8F8F8;
+    padding: 60px 0 30px 0;
+}
+
+/* ======= TEXT ======= */
+
+p.person-card-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    color: #004A80;
+    letter-spacing: 0;
+}
+
+p.phone {
+    color: var(--main-color);
+}
+
+
+/* ======= LAYOUT ======= */

@@ -20,6 +20,14 @@ h1.blue {
     color: var(--main-color);
 }
 
+h3 {
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 32px;
+}
+
 h4 {
     margin: 0 0 40px;
     font-size: 24px;
@@ -164,6 +172,7 @@ p.p3 {
 .content-wrapper.search-email {
     flex-direction: column;
 }
+
 
 /* ======= SEARCH EMAIL MODULE  ======= */
 
