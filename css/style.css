@@ -152,7 +152,7 @@ p.p3 {
 .content-wrapper {
     padding: 0 15px;
     margin: auto;
-    width: 100%;
+    width: calc(100% - 30px);
     display: flex;
 }
 
