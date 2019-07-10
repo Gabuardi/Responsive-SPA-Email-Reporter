@@ -11,9 +11,7 @@
 #content-card-container {
     margin: 40px 0 30px 0;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .content-card {
@@ -21,9 +19,12 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 48%;
 }
 
+.content-card-column {
+    flex-grow: 1;
+    margin-right: 20px;
+}
 
 span.card-id {
     font-family: 'Roboto Condensed', sans-serif;
@@ -38,4 +39,15 @@ span.card-id {
     width: 83px;
     padding: 10px 0 10px;
     margin-right: 20px;
+}
+
+/* ======= RESPONSIVE MEDIA QUERY  ======= */
+
+/* _____________________________________________ */
+/* TABLET */
+@media only screen and (min-width: 600px) {
+
+    #content-card-container {
+        flex-direction: row;
+    }
 }
