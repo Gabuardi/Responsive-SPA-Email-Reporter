@@ -83,9 +83,16 @@ p {
     width: 71px;
 }
 
+/* ====== FOOTER ====== */
+
+.footer-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
 
 /* -------------------------------------------------------- */
-/* GENERIC STYLES (USED TWO O MORE TIMES IN PAGES) */
+/* GENERIC STYLES (USED TWO OR MORE TIMES IN PAGES) */
 /* -------------------------------------------------------- */
 
 /* ====== TEXT ====== */
