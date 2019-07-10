@@ -4,12 +4,50 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 52px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+h1.blue {
+    color: var(--main-color);
+}
+
+h4 {
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 29px;
+}
+
+h4 > strong {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+h6 {
+    font-size: 22px;
+    color: #004A80;
+    letter-spacing: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
 }
 
 /* -------------------------------------------------------- */
 /* VARIABLES DECLARATIONS */
 /* -------------------------------------------------------- */
-
 :root {
     /* COLOR PALETTE */
     --main-color: #004A80;
