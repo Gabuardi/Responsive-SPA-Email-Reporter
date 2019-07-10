@@ -21,15 +21,15 @@ body {
 /* TEMPLATE STYLES (USED ONCE IN EVERY PAGES)  */
 /* -------------------------------------------------------- */
 
-/* ====== HEAD NAV ====== */
+/* ====== HEAD BAR ====== */
 
-.head-nav {
+.head-bar {
     width: 100%;
     height: 65px;
     background-color: var(--main-color);
 }
 
-.head-nav-content {
+.head-bar-content {
     margin: auto;
     padding: 0 5px 0 7px;
     width: 70%;
@@ -45,11 +45,11 @@ body {
 /* -------------------------------------------------------- */
 
 
-.small-icon {
+.head-bar-icon {
     width: 23px;
 }
 
-.small-icon-container {
+.head-bar-icon-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
