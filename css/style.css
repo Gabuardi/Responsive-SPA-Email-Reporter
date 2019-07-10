@@ -166,5 +166,11 @@ p {
 }
 
 .search-button:hover {
+    background-color: #F2DA56;
+    background-image: none;
     cursor: pointer;
+}
+
+.search-button:active {
+    background-color: var(--secondary-color);
 }
