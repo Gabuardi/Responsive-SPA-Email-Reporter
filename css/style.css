@@ -116,14 +116,21 @@ p.p3 {
     display: flex;
 }
 
+/* CONTENT WRAPPER -> GENERAL USE FOR COLUMN DIRECTION CONTENT */
+.content-wrapper.column-direction {
+    flex-direction: column;
+}
+
+/* CONTENT WRAPPER -> [HEAD BAR] */
 .content-wrapper.head-bar {
-    padding: 0 5px 0 7px;
+    padding: 0 5px 0 5px;
     height: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+/* CONTENT WRAPPER -> [SEARCH EMAIL ADDRESS] */
 .content-wrapper.search-email {
     flex-direction: column;
 }
