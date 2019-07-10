@@ -181,15 +181,14 @@ p.p3 {
 /* MODULE AREA */
 .search-email-address-container {
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 95px;
+    padding: 10px 0 40px;
     background-color: var(--main-color);
 }
 
 .search-bar-container {
     padding-left: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .privacy-message {
@@ -201,10 +200,11 @@ p.p3 {
 
 /* INPUT */
 .search-bar {
+    height: 50px;
     flex-grow: 1;
     background: #FFFFFF;
     border-radius: 3px;
-    margin-right: 20px;
+    margin: 0 0 10px;
     padding-left: 20px;
     font-size: 22px;
     letter-spacing: 2px;
@@ -230,8 +230,8 @@ p.p3 {
 /* BUTTON */
 .search-button {
     flex-grow: 0;
-    width: 180px;
-    height: 70px;
+    width: 100%;
+    height: 50px;
     background-image: linear-gradient(225deg, #F2DA56 0%, var(--secondary-color) 100%);
     box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
     border-radius: 6px;
@@ -255,11 +255,43 @@ p.p3 {
 
 /* ======= RESPONSIVE MEDIA QUERY  ======= */
 
+
+/* _____________________________________________ */
+/* TABLET */
+@media only screen and (min-width: 600px) {
+
+    .search-bar-container {
+        flex-direction: row;
+    }
+
+    .search-bar, .search-button {
+        height: 70px;
+    }
+
+    .search-bar {
+        margin: 0 20px 10px 0;
+    }
+
+    .search-button {
+        width: 180px;
+    }
+
+    .search-email-address-container {
+        padding: 30px 0 60px;
+    }
+
+}
+
+
 /* _____________________________________________ */
 /* DESKTOP */
 @media only screen and (min-width: 992px) {
 
     .content-wrapper {
         width: 70%;
+    }
+
+    .search-email-address-container {
+        padding: 30px 0 95px;
     }
 }
