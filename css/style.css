@@ -24,7 +24,6 @@ h3 {
     font-size: 1.5rem;
     color: #000000;
     letter-spacing: 0;
-    text-align: center;
     line-height: 32px;
     margin: 0 0 30px 0;
 }
@@ -295,5 +294,9 @@ p.p3 {
 
     .search-email-address-container {
         padding: 30px 0 95px;
+    }
+
+    h3 {
+        text-align: center;
     }
 }

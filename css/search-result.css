@@ -10,7 +10,7 @@
 p.person-card-title {
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 32px;
+    font-size: 2.5rem;
     color: #004A80;
     letter-spacing: 0;
     margin-bottom: 15px;
@@ -28,7 +28,7 @@ p.phone {
 /* ==== PERSON CARD ==== */
 
 #person-card {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
     border-radius: 30px;
     padding: 40px 40px 15px;
     display: flex;
@@ -39,22 +39,43 @@ p.phone {
     margin-right: 15px;
     width: 46px;
     background-color: var(--main-color);
-    display: inline-block;
+    display: none;
     padding: 20px 24px;
     border-radius: 50%;
 }
 
 #person-content-information {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .person-content-column {
     padding-right: 25px;
-    width: 50%;
 }
 
 .person-content-data {
-    min-height: 131px;
     margin-bottom: 25px;
+}
+
+/* ======= RESPONSIVE MEDIA QUERY  ======= */
+
+/* _____________________________________________ */
+/* TABLET */
+@media only screen and (min-width: 600px) {
+
+    #person-content-information {
+        flex-direction: row;
+    }
+
+    .person-content-column {
+        width: 50%;
+    }
+
+    #person-card-icon {
+        display: inline-block;
+    }
+
+    .person-content-data {
+        min-height: 131px;
+    }
 }
