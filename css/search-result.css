@@ -29,3 +29,20 @@ p.phone {
     flex-direction: row;
 }
 
+#person-card-icon {
+    width: 46px;
+    background-color: var(--main-color);
+    display: inline-block;
+    padding: 20px 24px;
+    border-radius: 50%;
+}
+
+#person-content-information {
+    display: flex;
+    flex-direction: row;
+}
+
+.person-content-column {
+    padding-right: 25px;
+    width: 50%;
+}
