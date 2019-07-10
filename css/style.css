@@ -21,7 +21,7 @@ h1.blue {
 }
 
 h4 {
-    margin: 0;
+    margin: 0 0 40px;
     font-size: 24px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -106,17 +106,57 @@ p {
     flex-direction: column;
 }
 
-/* ======= SEARCH EMAIL  ======= */
+/* ======= SEARCH EMAIL MODULE  ======= */
 
-#search-email-address-container {
+/* MODULE AREA */
+.search-email-address-container {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 95px;
     background-color: var(--main-color);
 }
 
-#search-bar-container {
-    width: 100%;
+.search-bar-container {
     display: flex;
     flex-direction: row;
+}
+
+/* INPUT */
+.search-bar {
+    flex-grow: 1;
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 3px;
+    margin-right: 20px;
+    padding-left: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 18px;
+}
+
+.search-bar:placeholder-shown {
+    font-size: 16px;
+    color: #5a5a5a;
+    letter-spacing: 2px;
+    line-height: 18px;
+    padding-left: 20px;
+}
+
+/* BUTTON */
+.search-button {
+    flex-grow: 0;
+    width: 180px;
+    height: 70px;
+    background-image: linear-gradient(225deg, #F2DA56 0%, var(--secondary-color) 100%);
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+    font-size: 24px;
+    color: #004A80;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.search-button:hover {
+    cursor: pointer;
 }
