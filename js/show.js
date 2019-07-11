@@ -1,7 +1,12 @@
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
 
+// SAVE THE PERSON OBJECT IN VARIABLE
 const person = getPerson();
-console.log(person.name);
+
+if (person !== null) {
+    writeTextInElement('person-card-title', person.name + ', ' + person.age);
+    writeTextInElement('person-card-notes', person.notes)
+}
 
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
 
@@ -21,7 +26,9 @@ function getPerson() {
     return person;
 }
 
+// ------------------------------------------------------------------------
 // WRITE A GIVEN TEXT IN AN GIVEN HTML ELEMENT TAKING HIS STYLE
+// ------------------------------------------------------------------------
 function writeTextInElement(elementId, text) {
 
     // GET THE ELEMENT WITH THE GIVEN ID
