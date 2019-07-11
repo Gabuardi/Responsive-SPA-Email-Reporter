@@ -55,6 +55,9 @@ function searchEmail(input_id) {
             // IF YES SAVE THE PERSON INFORMATION IN LOCAL STORAGE
             savePerson(person)
 
+            // AND REDIRECT TO SEARCH RESULT PAGE :) BYE
+            window.location.href = "../pages/search-result.html";
+
         }
 
         // IF INPUT EMAIL IS INVALID DO NOTHING
