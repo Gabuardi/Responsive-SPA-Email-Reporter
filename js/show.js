@@ -3,7 +3,10 @@
 // SAVE THE PERSON OBJECT IN VARIABLE
 const person = getPerson();
 
+// CHECK IF THERE ARE RESULT
 if (person !== null) {
+
+    // IF THERE ARE SHOW THE PERSON CARD INFORMATION
     writeTextInElement('person-card-title', person.name + ', ' + person.age);
     writeTextInElement('person-card-notes', person.notes);
     writeTextInElement('person-card-address', person.address);
