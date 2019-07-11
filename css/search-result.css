@@ -5,6 +5,10 @@
     padding: 60px 0 60px 0;
 }
 
+.no-display {
+    display: none;
+}
+
 /* ======= TEXT ======= */
 
 p.person-card-title {
