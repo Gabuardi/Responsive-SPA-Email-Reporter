@@ -6,7 +6,10 @@ const person = getPerson();
 // CHECK IF THERE ARE RESULT
 if (person !== null) {
 
-    // IF THERE ARE SHOW THE PERSON CARD INFORMATION
+    // IF THERE ARE MAKE NO VISIBLE THE NO RESULTS PANEL
+    document.getElementById('no-results').className = 'no-display';
+
+    // AND SHOW THE PERSON CARD INFORMATION IN THE DOM
     writeTextInElement('person-card-title', person.name + ', ' + person.age);
     writeTextInElement('person-card-notes', person.notes);
     writeTextInElement('person-card-address', person.address);
@@ -15,6 +18,7 @@ if (person !== null) {
     writeItemsInHTML('person-card-relatives', person.relatives, 'name')
 } else {
 
+    // IF THERE ARE NOT RESULTS MAKE NO VISIBLE THE PERSON CARD
     document.getElementById('person-card').className = 'no-display';
 }
 
