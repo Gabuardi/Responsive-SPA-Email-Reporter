@@ -87,6 +87,10 @@ function searchEmail(input_id) {
 
             // IF YES SAVE THE PERSON INFORMATION IN LOCAL STORAGE
             savePerson(person);
+        } else {
+
+            // IF NO, REMOVE ANY PERSON THAT CAN BE SAVED
+            localStorage.removeItem('person');
         }
 
         // FIND THE EMAIL OR NO, REDIRECT TO SEARCH RESULT PAGE :) BYE

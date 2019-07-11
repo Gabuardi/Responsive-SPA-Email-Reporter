@@ -5,6 +5,18 @@
     padding: 60px 0 60px 0;
 }
 
+#no-results {
+    margin: 3rem;
+}
+
+#no-results > h1 {
+    color: var(--secondary-color);
+}
+
+.no-display {
+    display: none !important;
+}
+
 /* ======= TEXT ======= */
 
 p.person-card-title {
