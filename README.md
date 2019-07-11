@@ -7,3 +7,5 @@ Basic site that run email reports. Build with plain html + css + js plain.
 * lpatterson@gmail.com
 * mmouse@gmail.com
 * amoury@gmail.com
+
+![](https://i.imgur.com/QXE92PM.png)
