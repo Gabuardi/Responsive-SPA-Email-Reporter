@@ -30,6 +30,34 @@ function searchPersonByEmail(email) {
 // SAVE AN FOUND PERSON ON THE LOCAL STORAGE
 // ------------------------------------------------------------------------
 function savePerson(person) {
+
     // SET AN ITEM WITH THE NAME PERSON ON THE LS
     localStorage.setItem('person', person);
+}
+
+// ------------------------------------------------------------------------
+// RECEIVE THE ID OF THE INPUT WHICH GET THE EMAIL THAT WANT TO SEARCH
+// ------------------------------------------------------------------------
+function searchEmail(input_id) {
+
+    // GET THE INPUT ELEMENT WHERE EMAIL WAS WRITTEN
+    var input = document.getElementById(input_id);
+
+    // CHECK IF THE INPUT EMAIL IS VALID
+    if (emailInputIsValid(input)) {
+
+        // IF INPUT IS VALID START TO SEARCH AN PERSON WITH THE EMAIL
+        var person = searchPersonByEmail(input.value);
+
+        // PERSON WAS FOUND?
+        if (person !== undefined) {
+
+            // IF YES SAVE THE PERSON INFORMATION IN LOCAL STORAGE
+            savePerson(person)
+
+        }
+
+        // IF INPUT EMAIL IS INVALID DO NOTHING
+
+    }
 }
