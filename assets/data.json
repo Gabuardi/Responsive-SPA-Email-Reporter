@@ -49,7 +49,7 @@ data = [
     ]
   },
   {
-    name: 'Louis K Patterson',
+      name: 'Louis K Patterson',
     address: '333 Pleasant Pine Cir. Harrington, DE 11111',
     email: 'lpatterson@gmail.com',
     age: 31,

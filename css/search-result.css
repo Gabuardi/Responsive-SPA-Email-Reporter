@@ -20,7 +20,7 @@ p.description {
     margin-bottom: 20px;
 }
 
-p.phone {
+.phone > p {
     color: var(--main-color);
 }
 
@@ -75,7 +75,4 @@ p.phone {
         display: inline-block;
     }
 
-    .person-content-data {
-        min-height: 131px;
-    }
 }

@@ -32,8 +32,41 @@ function searchPersonByEmail(email) {
 function savePerson(person) {
 
     // SET AN ITEM WITH THE NAME PERSON ON THE LS
-    localStorage.setItem('person', person);
+    localStorage.setItem('person', JSON.stringify(person));
 }
+
+// ------------------------------------------------------------------------
+// RETURN THE CURRENT PAGE IN BROWSER
+// ------------------------------------------------------------------------
+function getCurrentPage() {
+
+    // GET THE CURRENT LOCATION PATH
+    var locationPath = window.location.pathname;
+
+    // SPLIT THE STRING IN / CHARACTER
+    var locationPathArray = locationPath.split('/');
+
+    // AND RETURN THE LAST ITEM
+    return locationPathArray[locationPathArray.length - 1];
+}
+
+// ------------------------------------------------------------------------
+// REDIRECT TO THE PAGE OR RELOAD DEPENDING WHERE ACTUALLY BE LOCATED
+// ------------------------------------------------------------------------
+function redirectSearchResult() {
+
+    // CHECK IF IS INDEX
+    if (getCurrentPage() === 'index.html') {
+
+        // INDEX -> SEARCH RESULT
+        window.location.href = "pages/search-result.html";
+    } else {
+
+        // IS IS SEARCH RESULT ONLY RELOAD PAGE
+        window.location.reload();
+    }
+}
+
 
 // ------------------------------------------------------------------------
 // RECEIVE THE ID OF THE INPUT WHICH GET THE EMAIL THAT WANT TO SEARCH
@@ -57,7 +90,7 @@ function searchEmail(input_id) {
         }
 
         // FIND THE EMAIL OR NO, REDIRECT TO SEARCH RESULT PAGE :) BYE
-        window.location.href = "pages/search-result.html";
+        redirectSearchResult();
     }
 
     // IF INPUT EMAIL IS INVALID DO NOTHING
