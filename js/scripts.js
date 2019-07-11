@@ -25,3 +25,11 @@ function searchPersonByEmail(email) {
     // IF CYCLE END AND NEVER MATCH MEANS EMAIL NO EXIST
     return undefined;
 }
+
+// ------------------------------------------------------------------------
+// SAVE AN FOUND PERSON ON THE LOCAL STORAGE
+// ------------------------------------------------------------------------
+function savePerson(person) {
+    // SET AN ITEM WITH THE NAME PERSON ON THE LS
+    localStorage.setItem('person', person);
+}
