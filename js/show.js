@@ -5,7 +5,11 @@ const person = getPerson();
 
 if (person !== null) {
     writeTextInElement('person-card-title', person.name + ', ' + person.age);
-    writeTextInElement('person-card-notes', person.notes)
+    writeTextInElement('person-card-notes', person.notes);
+    writeTextInElement('person-card-address', person.address);
+    writeTextInElement('person-card-email', person.email);
+    writeItemsInHTML('person-card-phone', person.phoneNumbers, 'phone');
+    writeItemsInHTML('person-card-relatives', person.relatives, 'name')
 }
 
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
@@ -36,4 +40,21 @@ function writeTextInElement(elementId, text) {
 
     // WRITE THE TEXT
     element.innerText = text;
+}
+
+function writeItemsInHTML(elementId, list, property) {
+
+    // GET THE ELEMENT WITH THE GIVEN ID
+    var element = document.getElementById(elementId);
+
+    // INITIALIZE VARIABLE
+    let HTMLItems = '';
+
+    // CONCAT ALL ITEMS
+    for (let item of list) {
+        HTMLItems += '<p>' + item[property] + '</p>'
+    }
+
+    // INSERT HTML ITEMS ON DOM
+    element.innerHTML = HTMLItems;
 }
