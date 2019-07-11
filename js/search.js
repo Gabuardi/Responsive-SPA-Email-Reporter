@@ -32,7 +32,7 @@ function searchPersonByEmail(email) {
 function savePerson(person) {
 
     // SET AN ITEM WITH THE NAME PERSON ON THE LS
-    localStorage.setItem('person', person);
+    localStorage.setItem('person', JSON.stringify(person));
 }
 
 // ------------------------------------------------------------------------

@@ -1,7 +1,7 @@
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
 
-
-
+const person = getPerson();
+console.log(person.name);
 
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
 
@@ -10,7 +10,15 @@
 // GET THE ITEM PERSON FROM LOCAL STORAGE
 // ------------------------------------------------------------------------
 function getPerson() {
-    return localStorage.getItem('person')
+
+    // GET THE ITEM PERSON (as a string)
+    var person = localStorage.getItem('person');
+
+    // PARSE FROM STRING TO OBJECT
+    person = JSON.parse(person);
+
+    // RETURN IT
+    return person;
 }
 
 // WRITE A GIVEN TEXT IN AN GIVEN HTML ELEMENT TAKING HIS STYLE
