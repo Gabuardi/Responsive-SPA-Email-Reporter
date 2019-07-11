@@ -13,6 +13,9 @@ if (person !== null) {
     writeTextInElement('person-card-email', person.email);
     writeItemsInHTML('person-card-phone', person.phoneNumbers, 'phone');
     writeItemsInHTML('person-card-relatives', person.relatives, 'name')
+} else {
+
+    document.getElementById('person-card').className = 'no-display';
 }
 
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
