@@ -54,8 +54,6 @@ function searchEmail(input_id) {
 
             // IF YES SAVE THE PERSON INFORMATION IN LOCAL STORAGE
             savePerson(person);
-
-
         }
 
         // FIND THE EMAIL OR NO, REDIRECT TO SEARCH RESULT PAGE :) BYE
