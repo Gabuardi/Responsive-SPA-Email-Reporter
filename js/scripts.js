@@ -62,3 +62,10 @@ function searchEmail(input_id) {
 
     // IF INPUT EMAIL IS INVALID DO NOTHING
 }
+
+// ------------------------------------------------------------------------
+// GET THE ITEM PERSON FROM LOCAL STORAGE
+// ------------------------------------------------------------------------
+function getPerson() {
+    return localStorage.getItem('person')
+}
