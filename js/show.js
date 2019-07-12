@@ -1,26 +1,5 @@
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
 
-// SAVE THE PERSON OBJECT IN VARIABLE
-const person = getPerson();
-
-// CHECK IF THERE ARE RESULT
-if (person !== null) {
-
-    // IF THERE ARE MAKE NO VISIBLE THE NO RESULTS PANEL
-    document.getElementById('no-results').className = 'no-display';
-
-    // AND SHOW THE PERSON CARD INFORMATION IN THE DOM
-    writeTextInElement('person-card-title', person.name + ', ' + person.age);
-    writeTextInElement('person-card-notes', person.notes);
-    writeTextInElement('person-card-address', person.address);
-    writeTextInElement('person-card-email', person.email);
-    writeItemsInHTML('person-card-phone', person.phoneNumbers, 'phone');
-    writeItemsInHTML('person-card-relatives', person.relatives, 'name')
-} else {
-
-    // IF THERE ARE NOT RESULTS MAKE NO VISIBLE THE PERSON CARD
-    document.getElementById('person-card').className = 'no-display';
-}
 
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
 
@@ -98,6 +77,30 @@ function writePersonCardData(person) {
 }
 
 // ------------------------------------------------------------------------
+// SHOW IN THE SCREEN THE EMAIL SEARCH RESULT
+// ------------------------------------------------------------------------
+function showSearchResult() {
+
+    // SAVE THE PERSON OBJECT IN VARIABLE
+    var person = getPerson();
+
+    // CHECK IF THERE ARE RESULT
+    if (person !== null) {
+
+        // IF THERE ARE MAKE NO VISIBLE THE NO RESULTS PANEL
+        document.getElementById('no-results').className = 'no-display';
+
+        // AND SHOW THE PERSON CARD INFORMATION IN THE DOM
+        writePersonCardData(person);
+    } else {
+
+        // IF THERE ARE NOT RESULTS MAKE NO VISIBLE THE PERSON CARD
+        document.getElementById('person-card').className = 'no-display';
+    }
+
+}
+
+// ------------------------------------------------------------------------
 // UPDATE ALL THE VIEW FROM HOME TO SEARCH RESULT MODE
 // ------------------------------------------------------------------------
 function changeView() {
@@ -107,4 +110,7 @@ function changeView() {
 
     // CHANGE THE TEXT CONTENT OF SEARCH EMAIL MODULE
     changeSearchModuleText();
+
+    // SHOW THE SEARCH RESULT
+    showSearchResult();
 }
