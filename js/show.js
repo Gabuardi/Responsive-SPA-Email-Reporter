@@ -52,6 +52,9 @@ function writeTextInElement(elementId, text) {
     element.innerText = text;
 }
 
+// ------------------------------------------------------------------------
+// WRITE THE ITEMS OF GIVEN LIST IN A GIVEN ELEMENT USING A GIVEN PROPERTY
+// ------------------------------------------------------------------------
 function writeItemsInHTML(elementId, list, property) {
 
     // GET THE ELEMENT WITH THE GIVEN ID
@@ -69,6 +72,9 @@ function writeItemsInHTML(elementId, list, property) {
     element.innerHTML = HTMLItems;
 }
 
+// ------------------------------------------------------------------------
+// UPDATE THE TEXT CONTENT OF THE SEARCH EMAIL MODULE
+// ------------------------------------------------------------------------
 function changeSearchModuleText() {
 
     // CHANGE TITLE TEXT CONTENT
@@ -79,6 +85,9 @@ function changeSearchModuleText() {
 
 }
 
+// ------------------------------------------------------------------------
+// UPDATE ALL THE VIEW FROM HOME TO SEARCH RESULT MODE
+// ------------------------------------------------------------------------
 function changeView() {
 
     // MAKE NO VISIBLE THE INDEX CONTENT
