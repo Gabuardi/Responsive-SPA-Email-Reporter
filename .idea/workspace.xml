@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b51ba7c-8460-43e8-acd7-7d97dede0e98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/show.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/search-result.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="45">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="40" column="79" lean-forward="true" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
+            <state relative-caret-position="468">
+              <caret line="289" column="7" lean-forward="true" selection-start-line="289" selection-start-column="7" selection-end-line="289" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -44,10 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/search-result.html">
+        <entry file="file://$PROJECT_DIR$/js/show.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -56,7 +55,25 @@
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="62" column="7" lean-forward="true" selection-end-line="302" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="685" selection-start-column="685" selection-end-column="685" />
             </state>
           </provider>
         </entry>
@@ -64,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/show.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="288">
+              <caret line="101" column="26" lean-forward="true" selection-end-line="137" />
             </state>
           </provider>
         </entry>
@@ -73,8 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="73" column="57" lean-forward="true" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+            <state relative-caret-position="243">
+              <caret line="60" column="40" lean-forward="true" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/search.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -110,11 +136,11 @@
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/css/search-result.min.css" />
         <option value="$PROJECT_DIR$/css/index.min.css" />
-        <option value="$PROJECT_DIR$/js/search.min.js" />
-        <option value="$PROJECT_DIR$/js/show.min.js" />
         <option value="$PROJECT_DIR$/js/search.js" />
         <option value="$PROJECT_DIR$/pages/search-result.html" />
         <option value="$PROJECT_DIR$/js/show.js" />
+        <option value="$PROJECT_DIR$/js/search.min.js" />
+        <option value="$PROJECT_DIR$/js/show.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -169,7 +195,14 @@
             <path>
               <item name="responsive-email-reporter" type="b2602c69:ProjectViewProjectNode" />
               <item name="responsive-email-reporter" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="search.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="responsive-email-reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="responsive-email-reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="show.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62381000" />
+    <option name="totallyTimeSpent" value="63154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
@@ -290,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+        <state relative-caret-position="480">
+          <caret line="62" column="7" lean-forward="true" selection-end-line="302" />
         </state>
       </provider>
     </entry>
@@ -309,38 +342,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/search.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/show.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="73" column="57" lean-forward="true" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/search-result.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -354,21 +366,42 @@
     <entry file="file://$PROJECT_DIR$/pages/search-result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="60" column="40" lean-forward="true" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/search.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/show.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="288">
+          <caret line="101" column="26" lean-forward="true" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/show.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="40" column="79" lean-forward="true" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
+        <state relative-caret-position="468">
+          <caret line="289" column="7" lean-forward="true" selection-start-line="289" selection-start-column="7" selection-end-line="289" selection-end-column="7" />
         </state>
       </provider>
     </entry>
