@@ -51,24 +51,6 @@ function getCurrentPage() {
 }
 
 // ------------------------------------------------------------------------
-// REDIRECT TO THE PAGE OR RELOAD DEPENDING WHERE ACTUALLY BE LOCATED
-// ------------------------------------------------------------------------
-function redirectSearchResult() {
-
-    // CHECK IF IS INDEX
-    if (getCurrentPage() === 'index.html') {
-
-        // INDEX -> SEARCH RESULT
-        window.location.href = "pages/search-result.html";
-    } else {
-
-        // IS IS SEARCH RESULT ONLY RELOAD PAGE
-        window.location.reload();
-    }
-}
-
-
-// ------------------------------------------------------------------------
 // RECEIVE THE ID OF THE INPUT WHICH GET THE EMAIL THAT WANT TO SEARCH
 // ------------------------------------------------------------------------
 function searchEmail(input_id) {
@@ -93,8 +75,8 @@ function searchEmail(input_id) {
             localStorage.removeItem('person');
         }
 
-        // FIND THE EMAIL OR NO, REDIRECT TO SEARCH RESULT PAGE :) BYE
-        redirectSearchResult();
+        // FIND THE EMAIL OR NO, CHANGE THE VIEW TO SEARCH RESULT MODE
+        changeView();
     }
 
     // IF INPUT EMAIL IS INVALID DO NOTHING
