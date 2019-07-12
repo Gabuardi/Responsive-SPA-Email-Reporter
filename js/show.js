@@ -115,6 +115,13 @@ function showSearchResult() {
 }
 
 // ------------------------------------------------------------------------
+// RELOAD THE CURRENT IN BROWSER PAGE
+// ------------------------------------------------------------------------
+function reload() {
+    window.location.reload();
+}
+
+// ------------------------------------------------------------------------
 // UPDATE ALL THE VIEW FROM HOME TO SEARCH RESULT MODE
 // ------------------------------------------------------------------------
 function changeView() {
