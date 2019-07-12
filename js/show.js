@@ -86,6 +86,18 @@ function changeSearchModuleText() {
 }
 
 // ------------------------------------------------------------------------
+// GIVEN A PERSON OBJECT WRITE THE DATA IN THE CORRESPONDENT ELEMENTS
+// ------------------------------------------------------------------------
+function writePersonCardData(person) {
+    writeTextInElement('person-card-title', person.name + ', ' + person.age);
+    writeTextInElement('person-card-notes', person.notes);
+    writeTextInElement('person-card-address', person.address);
+    writeTextInElement('person-card-email', person.email);
+    writeItemsInHTML('person-card-phone', person.phoneNumbers, 'phone');
+    writeItemsInHTML('person-card-relatives', person.relatives, 'name')
+}
+
+// ------------------------------------------------------------------------
 // UPDATE ALL THE VIEW FROM HOME TO SEARCH RESULT MODE
 // ------------------------------------------------------------------------
 function changeView() {
