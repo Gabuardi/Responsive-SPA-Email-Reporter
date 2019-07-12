@@ -71,6 +71,11 @@ function writeItemsInHTML(elementId, list, property) {
     element.innerHTML = HTMLItems;
 }
 
+function changeSearchModuleText() {
+
+
+
+}
 
 function changeView() {
 
