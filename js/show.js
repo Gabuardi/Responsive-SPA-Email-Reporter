@@ -25,6 +25,8 @@ if (person !== null) {
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
 
 
+
+
 // ------------------------------------------------------------------------
 // GET THE ITEM PERSON FROM LOCAL STORAGE
 // ------------------------------------------------------------------------
@@ -67,4 +69,12 @@ function writeItemsInHTML(elementId, list, property) {
 
     // INSERT HTML ITEMS ON DOM
     element.innerHTML = HTMLItems;
+}
+
+
+function changeView() {
+
+    // MAKE NO VISIBLE THE INDEX CONTENT
+    document.getElementById('index-content').className = 'no-display'
+
 }

@@ -13,10 +13,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
 
-
     <!-- STYLES SHEETS -->
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/index.min.css">
+    <link rel="stylesheet" href="css/search-result.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
 
@@ -66,7 +66,7 @@
             <input id="input1" type="email" class="search-bar" placeholder="EMAIL">
 
             <!-- BUTTON -->
-            <button class="search-button" onclick="searchEmail('input1')">GO!</button>
+            <button class="search-button" onclick="searchEmail('input1'); changeView()">GO!</button>
 
         </div>
 
@@ -208,6 +208,6 @@
 <!-- SCRIPTS -->
 <script src="assets/data.json" type="text/javascript"></script>
 <script src="js/search.js" type="text/javascript"></script>
-<script src="../js/show.min.js" type="text/javascript"></script>
+<script src="js/show.js" type="text/javascript"></script>
 
 </html>
