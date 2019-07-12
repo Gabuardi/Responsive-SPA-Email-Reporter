@@ -52,6 +52,21 @@ function writeItemsInHTML(elementId, list, property) {
 }
 
 // ------------------------------------------------------------------------
+// CHANGE THE ELEMENT DISPLAY CLASS
+// ------------------------------------------------------------------------
+function changeDisplay() {
+
+    // MAKE NO VISIBLE THE INDEX CONTENT
+    document.getElementById('index-content').className = 'no-display';
+
+    // MAKE VISIBLE THE SEARCH RESULT CONTENT
+    document.getElementById('search-result').classList.remove('no-display');
+
+    document.getElementById('person-card').classList.remove('no-display');
+    document.getElementById('no-results').classList.remove('no-display');
+}
+
+// ------------------------------------------------------------------------
 // UPDATE THE TEXT CONTENT OF THE SEARCH EMAIL MODULE
 // ------------------------------------------------------------------------
 function changeSearchModuleText() {
@@ -61,7 +76,6 @@ function changeSearchModuleText() {
 
     // CHANGE SUBTITLE CONTENT
     document.getElementById('search-module-subtitle').innerHTML = '<strong>Try Again</strong> - Make a new search';
-
 }
 
 // ------------------------------------------------------------------------
@@ -88,14 +102,14 @@ function showSearchResult() {
     if (person !== null) {
 
         // IF THERE ARE MAKE NO VISIBLE THE NO RESULTS PANEL
-        document.getElementById('no-results').className = 'no-display';
+        document.getElementById('no-results').classList.add('no-display');
 
         // AND SHOW THE PERSON CARD INFORMATION IN THE DOM
         writePersonCardData(person);
     } else {
 
         // IF THERE ARE NOT RESULTS MAKE NO VISIBLE THE PERSON CARD
-        document.getElementById('person-card').className = 'no-display';
+        document.getElementById('person-card').classList.add('no-display');
     }
 
 }
@@ -105,8 +119,8 @@ function showSearchResult() {
 // ------------------------------------------------------------------------
 function changeView() {
 
-    // MAKE NO VISIBLE THE INDEX CONTENT
-    document.getElementById('index-content').className = 'no-display';
+    // CHANGE THE DISPLAY CLASS OF THE CONTENT AREAS
+    changeDisplay();
 
     // CHANGE THE TEXT CONTENT OF SEARCH EMAIL MODULE
     changeSearchModuleText();
