@@ -25,8 +25,6 @@ if (person !== null) {
 // +++++++ --------- EXECUTE WHEN FILE IS LOADED --------- ++++++
 
 
-
-
 // ------------------------------------------------------------------------
 // GET THE ITEM PERSON FROM LOCAL STORAGE
 // ------------------------------------------------------------------------
@@ -64,7 +62,7 @@ function writeItemsInHTML(elementId, list, property) {
 
     // CONCAT ALL ITEMS
     for (let item of list) {
-        HTMLItems += '<p>' + item[property] + '</p>'
+        HTMLItems += '<p>' + item[property] + '</p>';
     }
 
     // INSERT HTML ITEMS ON DOM
@@ -73,13 +71,19 @@ function writeItemsInHTML(elementId, list, property) {
 
 function changeSearchModuleText() {
 
+    // CHANGE TITLE TEXT CONTENT
+    document.getElementById('search-module-title').innerText = 'Can’t Find The Right Person?';
 
+    // CHANGE SUBTITLE CONTENT
+    document.getElementById('search-module-subtitle').innerHTML = '<strong>Try Again</strong> - Make a new search';
 
 }
 
 function changeView() {
 
     // MAKE NO VISIBLE THE INDEX CONTENT
-    document.getElementById('index-content').className = 'no-display'
+    document.getElementById('index-content').className = 'no-display';
 
+    // CHANGE THE TEXT CONTENT OF SEARCH EMAIL MODULE
+    changeSearchModuleText();
 }
