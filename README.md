@@ -1,6 +1,7 @@
 # responsive-email-reporter
+deployed: https://emailreporter.netlify.com
+
 Basic site that run email reports. Build with plain html + css + js plain. 
-https://emailreporter.netlify.com
 
 ## Test Emails
 * nicobes@gmail.com
